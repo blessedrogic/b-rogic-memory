@@ -1,0 +1,222 @@
+body{
+  overflow-x: hidden;
+}
+
+#text-change{
+    margin-bottom: 500px;
+  }
+
+  #text-change h1{
+    font-size: 90px;
+    font-weight: bold;
+  }
+
+  #text-change p{
+    margin: 50px 0;
+    font-size: 28px;
+  }
+
+  #text-change #differ{
+    font-size: 20px;
+  }
+
+  #text-change #differ img{
+    width: 3%;
+  }
+
+  #text-change #differ .single{
+    width: 6%;
+  }
+
+  #transform1{
+    width: 100%;
+    display: none;
+  }
+
+  #relative{
+    position: relative;
+    padding-top: 400px;
+  }
+
+  #transform{
+    position: absolute;
+    top: -400px;
+  }
+
+  #font{
+    font-size: 70px;
+    color: rgb(174, 141, 245);
+  }
+
+  #border{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+
+  #border1{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  #control{
+    font-size: 35px; 
+  }
+
+  #control span{
+    font-weight: 800;
+  }
+
+  .paragraph{
+    font-size: 25px;
+  }
+
+  .paragraph1{
+    font-size: 25px;
+  }
+
+  .unknown{
+    display: flex;
+  }
+
+  .unknown img{
+    width: 50%;
+    margin: b;
+  }
+
+  .unknown>*{
+    flex: 1;
+  }
+
+  footer .dif{
+    margin-top: 20px;
+  }
+  
+  footer img{
+    margin-bottom: 20px;
+  }
+
+  footer h5{
+    color: white; 
+    font-size: 25px;
+    margin: 20px 0;
+  }
+
+  hr{
+    color: white;
+    display: none;
+  }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  footer .col{
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer .icons{
+    display: flex;
+    gap: 10px;
+    transform: translateX(81%);
+  }
+
+  footer .icon{
+    background: white;
+    padding: 15px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  
+  footer i{
+    font-size: 20px;
+  }
+
+  footer .visible{
+    display: block;
+  }
+
+  .text article{
+    font-size: 14px;
+  }
+  
+  @media (max-width: 500px){
+    #text-change h1{
+      font-size: 30px;
+    }
+    #text-change p{
+      font-size: 15px;
+      margin: 10px 0;
+    }
+    
+    #text-change #differ{
+      font-size: 15px;
+    }
+    
+    #transform1{
+      display: block;
+      position: absolute;
+      top: -350px;
+    }
+
+    #transform{
+      display: none;
+    }
+
+    #border{
+      border-bottom-left-radius: 0;
+      border-top-right-radius: 20px;
+    }
+    #border1{
+      border-top-right-radius: 0;
+    }
+
+    #border1{
+      border-top-right-radius: 0px;
+      border-bottom-left-radius: 20px;
+    }
+
+    #font{
+      font-size: 40px;
+    }
+
+    .d-flex{
+      display: flex;
+      flex-direction: column;
+    }
+    #control {
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    footer img{
+      width: 100%;
+    }
+
+    footer .row{
+      display: flex;
+      flex-direction: column;
+    }
+
+    hr{
+      display: block;
+    }
+    footer .icons{
+      transform: translateX(0%);
+      margin: 20px 0;
+    }
+
+    .paragraph{
+      font-size: 15px;
+    }
+
+    .paragraph1{
+      font-size: 15px;
+    }
+  }
